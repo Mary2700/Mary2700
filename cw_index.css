@@ -1,0 +1,84 @@
+body {
+   background-image: url("https://i.pinimg.com/originals/0f/68/4c/0f684c8b0bdc440dfd2f131b234ca476.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.LoginBox
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 350px;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5);
+}
+
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color : gold;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    color : darkkhaki;
+    text-align: center;
+}
+
+.LoginBox p {
+    margin : 0;
+    padding: 0;
+    font-weight: bolder;
+    color : white;
+}
+
+.LoginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.LoginBox input[type="text"] {
+    boder : none;
+    border-bottom : 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color : #fff;
+    font-size : 15px
+}
+
+.LoginBox input[type="password"] {
+    boder : none;
+    border-bottom : 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color : #fff;
+    font-size : 15px
+}
+
+::placeholder {
+    color : rgba(255,255,255,.8)
+}
+
+.LoginBox input[type="submit"] {
+    boder : none;
+    outline: none;  
+    height : 40px;
+    color : #fff;
+    font-size : 16px;
+    background: brown;
+    cursor: pointer;
+}
+
+.LoginBox input[type="submit"]:hover {
+    background : #3c3c3c;
+}
