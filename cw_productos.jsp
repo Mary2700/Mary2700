@@ -57,6 +57,23 @@
                         
                         
                     </tr>
+              <tr>
+                        <td>1</td>
+                        <td>empanadas de carne</td>
+                        <td>Rellenas de pechugas de pollo o de carne, salteadas envueltas en una masa tradicional</td>
+                        <td>2</td>
+                        <td>15</td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>cafe helado</td>
+                        <td>Café clásico de la casa acompañado de galletas</td>
+                        <td>2</td>
+                        <td>10</td>                       
+                        
+                    </tr>
                 </tbody>
             </table>
 
