@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 06/09/2019 02:21:08 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="MODELO.Producto" table="producto" catalog="cafeteriawebbd" optimistic-lock="version">
+        <id name="ID_product" type="string">
+            <column name="ID_product" length="8" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre_product" type="string">
+            <column name="nombre_product" length="50" />
+        </property>
+        <property name="descr_product" type="string">
+            <column name="descr_product" length="50" />
+        </property>
+        <property name="`cant_product` " type="string">
+            <column name="`cant_product` " length="50" />
+        </property>
+        <property name="precio_product" type="string">
+            <column name="precio_product" length="50" unique="true" />
+        </property>        
+    </class>
+</hibernate-mapping>

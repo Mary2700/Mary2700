@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 06/09/2019 02:21:08 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="MODELO.Venta" table="producto" catalog="cafeteriawebbd" optimistic-lock="version">
+        <id name="ID_venta" type="string">
+            <column name="ID_venta" length="8" />
+            <generator class="assigned" />
+        </id>
+        <property name="cliente" type="string">
+            <column name="cliente" length="50" />
+        </property>
+        <property name="nom_vend" type="string">
+            <column name="nom_vend" length="50" />
+        </property> 
+        <property name="apell_vend" type="string">
+            <column name="apell_vend" length="50" />
+        </property>  
+        <property name="forma_pago" type="string">
+            <column name="forma_pago" length="50" />
+        </property>  
+        <property name="neto" type="string">
+            <column name="neto" length="50" />
+        </property>  
+        <property name="total" type="string">
+            <column name="total" length="50" />
+        </property>        
+    </class>
+</hibernate-mapping>
